@@ -37,7 +37,7 @@ public class UsersServer {
         }
     }
 
-    public void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         final UsersServer server = new UsersServer();
         server.start();
         server.blockUntilShutdown();
