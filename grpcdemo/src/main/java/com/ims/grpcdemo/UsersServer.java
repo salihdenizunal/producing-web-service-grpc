@@ -12,7 +12,7 @@ public class UsersServer {
     private Server server;
 
     private void start() throws IOException {
-        int port = 8080;
+        int port = 8181;
         server = ServerBuilder.forPort(port)
                 .addService(new UsersServiceImpl())
                 .build()
